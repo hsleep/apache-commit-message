@@ -54,7 +54,7 @@ def usage():
     sys.exit(-1)
 
 # Input
-#   - PR Url
+#   - Pull request url
 # Output
 #   - Commit message
 if __name__ == '__main__':
@@ -62,7 +62,6 @@ if __name__ == '__main__':
         usage()
 
     url = sys.argv[1]
-    # urllib.request.Request(url)
     pull = get_pull(url)
     commit_msg = make_commit_message(pull)
     authors = make_authors(pull)
