@@ -28,11 +28,11 @@ Install python3
 
 ```
 machine api.github.com
-login <github id>
-password <github password or token>
+  login <github id>
+  password <github password or token>
 machine issue.apache.org/jira
-login <jira id>
-password <jira password>
+  login <jira id>
+  password <jira password>
 ```
 
 ## Example
