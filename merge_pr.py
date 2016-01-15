@@ -36,4 +36,5 @@ if __name__ == '__main__':
     head = pull.head
     base = pull.base
 
-    print(OUTPUT.format(label=head.label.replace(':', '-'), base=base.label.replace(':', '/'), repo=head.repo.clone_url, branch=head.ref))
+    print(OUTPUT.format(label=head.label.replace(':', '-'), base=base.label.replace(':', '/'), repo=head.repo.clone_url,
+                        branch=head.ref))
